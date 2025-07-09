@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451AC19D2E1EA60B00513C24 /* Highlightr in Frameworks */ = {isa = PBXBuildFile; productRef = 451AC19C2E1EA60B00513C24 /* Highlightr */; };
+		451AC1A02E1EA63D00513C24 /* ShortcutRecorder in Frameworks */ = {isa = PBXBuildFile; productRef = 451AC19F2E1EA63D00513C24 /* ShortcutRecorder */; };
 		A504B9A124721698000A91D7 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = A504B9A024721698000A91D7 /* SwiftDate */; };
 		A504B9A524729DB9000A91D7 /* OutputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A504B9A424729DB9000A91D7 /* OutputTextField.swift */; };
 		A504B9A724729DDE000A91D7 /* OutputTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = A504B9A624729DDE000A91D7 /* OutputTextField.xib */; };
@@ -16,9 +18,6 @@
 		A50D29DB247B6A1B00B1E96F /* ToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50D29DA247B6A1B00B1E96F /* ToolViewController.swift */; };
 		A50D29DD247BFC8E00B1E96F /* NSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50D29DC247BFC8E00B1E96F /* NSTextView.swift */; };
 		A51047752507399C00CA4E52 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = A51047742507399C00CA4E52 /* SwiftyBeaver */; };
-		A5114FD8248214F6001A8DB5 /* Highlightr.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A5114FD6248214F6001A8DB5 /* Highlightr.framework.dSYM */; };
-		A5114FDA24821504001A8DB5 /* Highlightr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5114FD7248214F6001A8DB5 /* Highlightr.framework */; };
-		A5114FDB24821504001A8DB5 /* Highlightr.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5114FD7248214F6001A8DB5 /* Highlightr.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A5114FDD24821C5B001A8DB5 /* JSONTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5114FDC24821C5B001A8DB5 /* JSONTextView.swift */; };
 		A513040B247415930023D0CF /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A513040A247415930023D0CF /* Preferences.storyboard */; };
 		A513040E247418940023D0CF /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A513040D247418940023D0CF /* PreferencesWindowController.swift */; };
@@ -30,8 +29,6 @@
 		A5130431247585B70023D0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5130430247585B70023D0CF /* AppDelegate.swift */; };
 		A5130435247585B90023D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5130434247585B90023D0CF /* Assets.xcassets */; };
 		A5130438247585B90023D0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5130436247585B90023D0CF /* Main.storyboard */; };
-		A513045124758D4B0023D0CF /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5130415247422AB0023D0CF /* ShortcutRecorder.framework */; };
-		A513045224758D4B0023D0CF /* ShortcutRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5130415247422AB0023D0CF /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A513045B247614CA0023D0CF /* DevUtilsLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = A513042E247585B70023D0CF /* DevUtilsLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A52E1E92248009A20027F8AF /* UnixTimeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E1E90248009A20027F8AF /* UnixTimeSettingViewController.swift */; };
 		A52E1E93248009A20027F8AF /* UnixTimeSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A52E1E91248009A20027F8AF /* UnixTimeSettingViewController.xib */; };
@@ -68,9 +65,6 @@
 		A5861F08249473B500EDC5AB /* EndecodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5861F07249473B500EDC5AB /* EndecodeTool.swift */; };
 		A5861F0A2494771800EDC5AB /* HTMLEntityEndecodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5861F092494771800EDC5AB /* HTMLEntityEndecodeTool.swift */; };
 		A5861F0C2494861700EDC5AB /* ToolImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5861F0B2494861700EDC5AB /* ToolImpl.swift */; };
-		A5893A07247C106A00D025FE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; };
-		A5893A08247C106A00D025FE /* Sparkle.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = A5893A06247C106A00D025FE /* Sparkle.framework.dSYM */; };
-		A5893A09247C107300D025FE /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5893A05247C106A00D025FE /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A59FBE6224362BCE00C5C9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FBE6124362BCE00C5C9BF /* AppDelegate.swift */; };
 		A59FBE6624362BCF00C5C9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59FBE6524362BCF00C5C9BF /* Assets.xcassets */; };
 		A59FBE6924362BCF00C5C9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59FBE6724362BCF00C5C9BF /* Main.storyboard */; };
@@ -99,9 +93,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A5114FDB24821504001A8DB5 /* Highlightr.framework in Embed Frameworks */,
-				A5893A09247C107300D025FE /* Sparkle.framework in Embed Frameworks */,
-				A513045224758D4B0023D0CF /* ShortcutRecorder.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +110,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A504B9A22472662C000A91D7 /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		A504B9A424729DB9000A91D7 /* OutputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputTextField.swift; sourceTree = "<group>"; };
 		A504B9A624729DDE000A91D7 /* OutputTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OutputTextField.xib; sourceTree = "<group>"; };
 		A509FEC62472D0B8005ABCC2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
@@ -127,13 +117,9 @@
 		A509FECA2472D320005ABCC2 /* TestCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomView.swift; sourceTree = "<group>"; };
 		A50D29DA247B6A1B00B1E96F /* ToolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViewController.swift; sourceTree = "<group>"; };
 		A50D29DC247BFC8E00B1E96F /* NSTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSTextView.swift; sourceTree = "<group>"; };
-		A5114FD6248214F6001A8DB5 /* Highlightr.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Highlightr.framework.dSYM; path = Carthage/Build/Mac/Highlightr.framework.dSYM; sourceTree = "<group>"; };
-		A5114FD7248214F6001A8DB5 /* Highlightr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Highlightr.framework; path = Carthage/Build/Mac/Highlightr.framework; sourceTree = "<group>"; };
 		A5114FDC24821C5B001A8DB5 /* JSONTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTextView.swift; sourceTree = "<group>"; };
 		A513040A247415930023D0CF /* Preferences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Preferences.storyboard; sourceTree = "<group>"; };
 		A513040D247418940023D0CF /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
-		A5130415247422AB0023D0CF /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = Carthage/Build/Mac/ShortcutRecorder.framework; sourceTree = "<group>"; };
-		A5130416247422AB0023D0CF /* ShortcutRecorder.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ShortcutRecorder.framework.dSYM; path = Carthage/Build/Mac/ShortcutRecorder.framework.dSYM; sourceTree = "<group>"; };
 		A513041C24742AB20023D0CF /* HotkeyRecorder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotkeyRecorder.xib; sourceTree = "<group>"; };
 		A513041E24742AC10023D0CF /* HotkeyRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRecorder.swift; sourceTree = "<group>"; };
 		A5130420247533770023D0CF /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
@@ -154,7 +140,6 @@
 		A52E1EA024820D340027F8AF /* JSONFormatterSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatterSettingViewController.swift; sourceTree = "<group>"; };
 		A52E1EA124820D340027F8AF /* JSONFormatterSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSONFormatterSettingViewController.xib; sourceTree = "<group>"; };
 		A54CB79A246EED39006A468E /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		A54CB79E246F9DA4006A468E /* TIL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TIL.md; sourceTree = "<group>"; };
 		A54CB79F246FDDA2006A468E /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		A54CB7A3246FE06D006A468E /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		A54CB7A5246FF0CB006A468E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -169,7 +154,6 @@
 		A55F534424A9E9FB00DC4C3E /* Base64EndecodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base64EndecodeTool.swift; sourceTree = "<group>"; };
 		A55F534624AAC50200DC4C3E /* URLEndecodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEndecodeTool.swift; sourceTree = "<group>"; };
 		A572CD7C2470EBC300394087 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
-		A57E11EF2478DDDE00ACF76D /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
 		A57E11F42478FE3500ACF76D /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		A57E11F62479258900ACF76D /* JSONFormatterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatterViewController.swift; sourceTree = "<group>"; };
 		A57E11F72479258900ACF76D /* JSONFormatterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSONFormatterViewController.xib; sourceTree = "<group>"; };
@@ -183,8 +167,6 @@
 		A5861F07249473B500EDC5AB /* EndecodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndecodeTool.swift; sourceTree = "<group>"; };
 		A5861F092494771800EDC5AB /* HTMLEntityEndecodeTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLEntityEndecodeTool.swift; sourceTree = "<group>"; };
 		A5861F0B2494861700EDC5AB /* ToolImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolImpl.swift; sourceTree = "<group>"; };
-		A5893A05247C106A00D025FE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		A5893A06247C106A00D025FE /* Sparkle.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Sparkle.framework.dSYM; sourceTree = "<group>"; };
 		A59FBE5E24362BCE00C5C9BF /* DevUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59FBE6124362BCE00C5C9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A59FBE6524362BCF00C5C9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -219,13 +201,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A513045124758D4B0023D0CF /* ShortcutRecorder.framework in Frameworks */,
 				A504B9A124721698000A91D7 /* SwiftDate in Frameworks */,
 				A5A26E3B249494E800DB32A7 /* HTMLEntities in Frameworks */,
 				A5D4A39C24838E37008ECAE9 /* SwiftJWT in Frameworks */,
-				A5114FDA24821504001A8DB5 /* Highlightr.framework in Frameworks */,
 				A59FBE7324362CE100C5C9BF /* HotKey in Frameworks */,
-				A5893A07247C106A00D025FE /* Sparkle.framework in Frameworks */,
+				451AC19D2E1EA60B00513C24 /* Highlightr in Frameworks */,
+				451AC1A02E1EA63D00513C24 /* ShortcutRecorder in Frameworks */,
 				A51047752507399C00CA4E52 /* SwiftyBeaver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,13 +240,7 @@
 		A513040F2474227E0023D0CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5114FD7248214F6001A8DB5 /* Highlightr.framework */,
-				A5114FD6248214F6001A8DB5 /* Highlightr.framework.dSYM */,
-				A5893A05247C106A00D025FE /* Sparkle.framework */,
-				A5893A06247C106A00D025FE /* Sparkle.framework.dSYM */,
 				A5130440247586FF0023D0CF /* ServiceManagement.framework */,
-				A5130415247422AB0023D0CF /* ShortcutRecorder.framework */,
-				A5130416247422AB0023D0CF /* ShortcutRecorder.framework.dSYM */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -412,9 +387,6 @@
 			isa = PBXGroup;
 			children = (
 				A5CD9C9A25203730001D340D /* README.md */,
-				A54CB79E246F9DA4006A468E /* TIL.md */,
-				A504B9A22472662C000A91D7 /* TODO.md */,
-				A57E11EF2478DDDE00ACF76D /* NOTES.md */,
 				A59FBE6024362BCE00C5C9BF /* TINOBHNYWE */,
 				A513042F247585B70023D0CF /* LauncherApplicationTINO */,
 				A59FBE5F24362BCE00C5C9BF /* Products */,
@@ -542,6 +514,8 @@
 				A5D4A39B24838E37008ECAE9 /* SwiftJWT */,
 				A5A26E3A249494E800DB32A7 /* HTMLEntities */,
 				A51047742507399C00CA4E52 /* SwiftyBeaver */,
+				451AC19C2E1EA60B00513C24 /* Highlightr */,
+				451AC19F2E1EA63D00513C24 /* ShortcutRecorder */,
 			);
 			productName = TINOBHNYWE;
 			productReference = A59FBE5E24362BCE00C5C9BF /* DevUtils.app */;
@@ -580,6 +554,8 @@
 				A5D4A39A24838E37008ECAE9 /* XCRemoteSwiftPackageReference "Swift-JWT" */,
 				A5A26E39249494E800DB32A7 /* XCRemoteSwiftPackageReference "swift-html-entities" */,
 				A51047732507399C00CA4E52 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				451AC19B2E1EA60B00513C24 /* XCRemoteSwiftPackageReference "Highlightr" */,
+				451AC19E2E1EA63D00513C24 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */,
 			);
 			productRefGroup = A59FBE5F24362BCE00C5C9BF /* Products */;
 			projectDirPath = "";
@@ -620,13 +596,11 @@
 				A59FBE6924362BCF00C5C9BF /* Main.storyboard in Resources */,
 				A513042924757CF30023D0CF /* WelcomeViewController.xib in Resources */,
 				A504B9A724729DDE000A91D7 /* OutputTextField.xib in Resources */,
-				A5114FD8248214F6001A8DB5 /* Highlightr.framework.dSYM in Resources */,
 				A509FEC92472D309005ABCC2 /* TestCustomView.xib in Resources */,
 				A52E1EA324820D340027F8AF /* JSONFormatterSettingViewController.xib in Resources */,
 				A52E1E9A248203AC0027F8AF /* URLEncodeSettingViewController.xib in Resources */,
 				A5861F062494706100EDC5AB /* SharedEndecodeViewController.xib in Resources */,
 				A513040B247415930023D0CF /* Preferences.storyboard in Resources */,
-				A5893A08247C106A00D025FE /* Sparkle.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,13 +698,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = tonyapp.devutils.launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -746,13 +721,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = LauncherApplicationTINO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = tonyapp.devutils.launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -882,7 +858,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -895,6 +871,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tonyapp.devutils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -912,7 +889,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 20;
-				DEVELOPMENT_TEAM = 432TM87K7L;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -925,6 +902,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tonyapp.devutils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -966,6 +944,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		451AC19B2E1EA60B00513C24 /* XCRemoteSwiftPackageReference "Highlightr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raspu/Highlightr/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		451AC19E2E1EA63D00513C24 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JanX2/ShortcutRecorder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
 		A504B99F24721698000A91D7 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
@@ -1009,6 +1003,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		451AC19C2E1EA60B00513C24 /* Highlightr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451AC19B2E1EA60B00513C24 /* XCRemoteSwiftPackageReference "Highlightr" */;
+			productName = Highlightr;
+		};
+		451AC19F2E1EA63D00513C24 /* ShortcutRecorder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451AC19E2E1EA63D00513C24 /* XCRemoteSwiftPackageReference "ShortcutRecorder" */;
+			productName = ShortcutRecorder;
+		};
 		A504B9A024721698000A91D7 /* SwiftDate */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A504B99F24721698000A91D7 /* XCRemoteSwiftPackageReference "SwiftDate" */;

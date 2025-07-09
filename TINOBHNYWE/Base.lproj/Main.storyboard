@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +20,6 @@
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Check for Updates..." id="DoJ-et-J6E">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="checkForUpdates:" target="T8O-WY-UtC" id="Utr-Zw-QZF"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
@@ -159,8 +153,7 @@
                                                 <action selector="paste:" target="Ady-hI-5gd" id="UvS-8e-Qdg"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Paste and Match Style" keyEquivalent="V" id="WeT-3V-zwk">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                        <menuItem title="Paste and Match Style" keyEquivalent="v" id="WeT-3V-zwk">
                                             <connections>
                                                 <action selector="pasteAsPlainText:" target="Ady-hI-5gd" id="cEh-KX-wJQ"/>
                                             </connections>
@@ -656,7 +649,6 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DevUtils" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <customObject id="T8O-WY-UtC" customClass="SUUpdater"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
@@ -711,24 +703,23 @@
             <objects>
                 <viewController id="56V-C1-g2w" customClass="OutlineViewController" customModule="DevUtils" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bC8-q3-lYD" customClass="NSVisualEffectView">
-                        <rect key="frame" x="0.0" y="0.0" width="260" height="496"/>
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="457"/>
                         <subviews>
                             <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOH-gO-Axy">
-                                <rect key="frame" x="0.0" y="77" width="260" height="396"/>
+                                <rect key="frame" x="0.0" y="44" width="260" height="391"/>
                                 <clipView key="contentView" drawsBackground="NO" id="bDY-Pu-tgv">
-                                    <rect key="frame" x="0.0" y="0.0" width="260" height="396"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="260" height="391"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" indentationPerLevel="16" outlineTableColumn="aoo-DF-9T7" id="oRB-zp-fLr">
-                                            <rect key="frame" x="0.0" y="0.0" width="260" height="396"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="260" height="391"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn width="257" minWidth="40" maxWidth="1000" id="aoo-DF-9T7">
+                                                <tableColumn width="228" minWidth="40" maxWidth="1000" id="aoo-DF-9T7">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                                        <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                     </tableHeaderCell>
@@ -740,7 +731,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView identifier="ItemCell" id="Cac-LM-I6w" customClass="ToolOutlineTableCellView" customModule="DevUtils" customModuleProvider="target">
-                                                            <rect key="frame" x="1" y="1" width="257" height="17"/>
+                                                            <rect key="frame" x="11" y="1" width="237" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ky3-de-nle">
@@ -751,7 +742,7 @@
                                                                     </constraints>
                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="MenuIcon" id="v21-Uu-oAZ"/>
                                                                 </imageView>
-                                                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="PQd-Br-qSk">
+                                                                <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="PQd-Br-qSk">
                                                                     <rect key="frame" x="24" y="1" width="96" height="16"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="Qby-Co-RwS">
                                                                         <font key="font" metaFont="system"/>
@@ -803,7 +794,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ko1-bZ-iKj">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ko1-bZ-iKj">
                                 <rect key="frame" x="49" y="8" width="163" height="28"/>
                                 <textFieldCell key="cell" controlSize="small" lineBreakMode="clipping" alignment="center" id="fAY-OT-pfD">
                                     <font key="font" metaFont="smallSystem"/>
@@ -813,24 +804,12 @@ https://DevUtils.app</string>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TUw-wd-mor">
-                                <rect key="frame" x="50" y="39" width="161" height="32"/>
-                                <buttonCell key="cell" type="push" title="Send Feedback" bezelStyle="rounded" image="NSTouchBarMailTemplate" imagePosition="leading" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ERU-kc-qpr">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="sendFeedbackButtonAction:" target="56V-C1-g2w" id="8RB-jd-XsR"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="SOH-gO-Axy" firstAttribute="top" secondItem="bC8-q3-lYD" secondAttribute="top" constant="22" id="8yW-zg-NPk"/>
                             <constraint firstAttribute="trailing" secondItem="SOH-gO-Axy" secondAttribute="trailing" id="AOA-Qx-ce7"/>
-                            <constraint firstItem="TUw-wd-mor" firstAttribute="top" secondItem="SOH-gO-Axy" secondAttribute="bottom" constant="10" id="ATZ-5U-Fed"/>
-                            <constraint firstItem="ko1-bZ-iKj" firstAttribute="top" secondItem="TUw-wd-mor" secondAttribute="bottom" constant="10" id="DZU-MT-GDV"/>
+                            <constraint firstItem="ko1-bZ-iKj" firstAttribute="top" secondItem="SOH-gO-Axy" secondAttribute="bottom" constant="8" id="Lz6-Bm-S8f"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="WW4-4S-JWY"/>
-                            <constraint firstItem="TUw-wd-mor" firstAttribute="centerX" secondItem="bC8-q3-lYD" secondAttribute="centerX" id="Wtl-Pv-qo1"/>
                             <constraint firstAttribute="bottom" secondItem="ko1-bZ-iKj" secondAttribute="bottom" constant="8" id="c2n-Eh-uVT"/>
                             <constraint firstItem="SOH-gO-Axy" firstAttribute="leading" secondItem="bC8-q3-lYD" secondAttribute="leading" id="r4M-m6-B8D"/>
                             <constraint firstItem="ko1-bZ-iKj" firstAttribute="centerX" secondItem="bC8-q3-lYD" secondAttribute="centerX" id="yqH-7g-QG8"/>
@@ -857,7 +836,7 @@ https://DevUtils.app</string>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="KNP-Vh-tqf">
                                 <rect key="frame" x="0.0" y="465" width="808" height="32"/>
                                 <subviews>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X1k-Qm-cL5">
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X1k-Qm-cL5">
                                         <rect key="frame" x="268" y="8" width="273" height="16"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="DevUtils.app - Developer Utilities for MacOS" id="6ty-fd-xQI">
                                             <font key="font" usesAppearanceFont="YES"/>
@@ -898,7 +877,6 @@ https://DevUtils.app</string>
     </scenes>
     <resources>
         <image name="MenuIcon" width="1024" height="1024"/>
-        <image name="NSTouchBarMailTemplate" width="21" height="30"/>
         <image name="bolt.fill" width="43" height="69"/>
     </resources>
 </document>

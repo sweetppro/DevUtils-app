@@ -24,9 +24,11 @@ extension NSTextView {
   
   func setStringRetrainUndo(_ value: String) {
     self.selectAll(self)
+    self.textStorage?.beginEditing()
     self.insertText(
       value,
       replacementRange: .init(location: 0, length: self.string.count)
     )
+    self.textStorage?.endEditing()
   }
 }

@@ -8,5 +8,9 @@
 
 import Cocoa
 class PreferencesWindowController: NSWindowController {
-
+    
+    override func windowDidLoad() {
+        super.windowDidLoad()
+        self.window?.title = "Settings"
+    }
 }

@@ -114,7 +114,7 @@ class PreferencesViewController: NSViewController, HotkeyRecorderDelegate {
     let alert = NSAlert()
     alert.messageText = "Service HotKey"
     alert.informativeText = "Service Hotkey allows you to activate DevUtils with a selected text from anywhere in your macOS. To enable this feature: \n\n" +
-      " 1. Open System Preferences > Keyboard > Shortcuts (tab) > Service (on the left sidebar)\n" +
+      " 1. Open System Settings > Keyboard > Shortcuts (tab) > Service (on the left sidebar)\n" +
       " 2. Find \"Inspect with DevUtils.app\" item in the list, usually placed under the \"Text\" group.\n" +
       " 3. Check the checkbox to enable it and optionally set your own service hotkey (default is ⌘\\)\n" +
       "\nWith this enabled, you can now select a text from any app and activate DevUtils using the hotkey  ⌘\\ or Right click > Services > Inspect with DevUtils.app."
